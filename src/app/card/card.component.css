@@ -1,0 +1,54 @@
+.spanCat
+{
+  background-color: #778da9;
+  line-height: 1.5;
+}
+a
+{
+  background-color: #415a77;
+  border: none;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.submitOrder
+{
+  position: fixed;
+  top: 20%;
+  right: 5%;
+}
+a:hover
+{
+  background-color: white;
+  color:#415a77 ;
+}
+.pro
+{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+button
+{
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+
+}
+button
+{
+  color: rgb(65,90,119);
+  border-color: rgb(65,90,119);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+button:hover
+{
+  color: white;
+  background-color:rgb(65,90,119) ;
+}

@@ -1,0 +1,15 @@
+.spanCat
+{
+  background-color: #778da9;
+  line-height: 1.5;
+}
+button
+{
+background-color: rgb(65,90,119);
+border: none;
+}
+button:hover
+{
+  background-color: white;
+  color: rgb(65,90,119);
+}

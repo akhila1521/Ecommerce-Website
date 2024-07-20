@@ -1,0 +1,29 @@
+
+<div class="container my-5">
+    <h4 class="text-center font-italic my-5 ">Carrito :</h4>
+
+    <div class="col-md-9 pro my-5 py-3" *ngFor="let products of allpro">
+        <div class="row">
+            <div class="col-md-5">
+        <img height="500px" width="200px" src="{{products.image}}" class="w-100 border-rounded">
+        </div>
+
+        <div class="col-md-7">
+            <h6 class="text-left my-2">{{products.title}}</h6>
+            <span class="text-muted">{{products.description}}</span><br>
+                <span class="p-2 badge price badge-warning text-white">{{products.price | currency:"Bs."}}</span>
+                <span class="badge badge-info ml-2 nr-3 text-white spanCat p-2">{{products.category}}</span>
+        <br/>
+
+        <div>
+            <input type="number" [value]="contidad" max="15" min="1"
+             class="w-25 form-control mt-2" placeholder="Quantity" >
+        </div>
+        <br/>
+
+        <a class="btn btn-primary mr-3 mb-5" (click)="deleteItem(products)" routerLink="/productos">Delete Item</a>
+            </div>
+
+        </div>
+    </div>
+</div>
